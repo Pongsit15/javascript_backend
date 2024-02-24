@@ -1,0 +1,21 @@
+/*-------------SETUP----------------*/
+npm init -y
+npm install express
+
+
+/*-------------Run Server----------------*/
+npm install nodemon
+
+
+/*-------------Middleware----------------*/
+npm install body-parser
+npm install cors
+npm install morgan
+
+/*-------------PostgreSQL จากโปรเจค Node.js ของคุณ คุณต้องใช้แพ็คเกจที่เรียกว่า pg ซึ่งเป็น PostgreSQL client library สำหรับ Node.js โดยสามารถติดตั้งได้ด้วยคำสั่ง:----------------*/ 
+npm install pg  /*---เป็น postgresSQL ปรับเปลี่ยนเเล้วเเต่สะดวก*/
+
+
+
+/*-------------Conect DB เเล้วเเต่ฐานข้อมูลที่ใช้งาน----------------*/ 
+npm install mongoose  /*---เป็น mongoose สำหรับสร้างโมเดท  ปรับเปลี่ยนเเล้วเเต่สะดวก*/
