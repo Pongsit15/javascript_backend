@@ -5,6 +5,7 @@ const {
 const morgan =   require('morgan');
 const cors = require ('cors')
 const bodyParse = require('body-parser')
+// const pool = require ('./Connect/db')
 // วิธีที่ 1
 // const productRouter = require ('./Routes/product') 
 // const auth = require ('./Routes/auth') 
@@ -12,6 +13,7 @@ const bodyParse = require('body-parser')
 
 
 const app = express();
+// pool()
 app.use(morgan('dev'))
 app.use(cors())
 app.use(bodyParse.json({limit: '10mb'})) 
